@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="12">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="project1"/>
+        <UsageCount Value="59"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="frmprincipal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="formPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmPrincipal"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="223"/>
+        <CursorPos X="20" Y="448"/>
+        <UsageCount Value="59"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="udatamodule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="uDataModule"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="79"/>
+        <CursorPos X="58" Y="8"/>
+        <UsageCount Value="59"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="usaldo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmSaldo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uSaldo"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="78" Y="44"/>
+        <UsageCount Value="51"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="frmrelatorioperpar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="formRelatorioPerPar"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmRelatorioPerPar"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="44"/>
+        <CursorPos X="3" Y="44"/>
+        <UsageCount Value="30"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="formRelatorioCresSaldo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmrelatoriocresaldo"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="83"/>
+        <CursorPos X="1" Y="118"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32listsl.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="152"/>
+        <CursorPos X="36" Y="162"/>
+        <UsageCount Value="12"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="4665"/>
+        <CursorPos X="1" Y="4682"/>
+        <UsageCount Value="7"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\..\..\Downloads\pascalscada_0.7.2.tar\pascalscada_0.7.2\pascalscada\zeoslib\src\component\ZAbstractRODataset.pas"/>
+        <UnitName Value="ZAbstractRODataset"/>
+        <TopLine Value="3487"/>
+        <CursorPos X="48" Y="3501"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\lazarus\components\tachart\tadbsource.pas"/>
+        <UnitName Value="TADbSource"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="142"/>
+        <CursorPos X="1" Y="176"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus\components\tachart\demo\nan\Main.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Main"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="12"/>
+        <CursorPos X="1" Y="51"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="frmrelatoriocresaldo.lfm"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit11>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="46" Column="19" TopLine="11"/>
+      </Position1>
+      <Position2>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="53" Column="19" TopLine="11"/>
+      </Position2>
+      <Position3>
+        <Filename Value="udatamodule.pas"/>
+        <Caret Line="65" Column="96" TopLine="44"/>
+      </Position3>
+      <Position4>
+        <Filename Value="frmrelatorioperpar.pas"/>
+        <Caret Line="97" Column="1" TopLine="40"/>
+      </Position4>
+      <Position5>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="64" Column="91" TopLine="20"/>
+      </Position5>
+      <Position6>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="52" Column="20" TopLine="26"/>
+      </Position6>
+      <Position7>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="54" Column="20" TopLine="27"/>
+      </Position7>
+      <Position8>
+        <Filename Value="frmrelatorioperpar.pas"/>
+        <Caret Line="72" Column="1" TopLine="64"/>
+      </Position8>
+      <Position9>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="63" Column="1" TopLine="37"/>
+      </Position9>
+      <Position10>
+        <Filename Value="frmrelatorioperpar.pas"/>
+        <Caret Line="69" Column="1" TopLine="64"/>
+      </Position10>
+      <Position11>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="73" Column="1" TopLine="44"/>
+      </Position11>
+      <Position12>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="9" Column="97" TopLine="1"/>
+      </Position12>
+      <Position13>
+        <Filename Value="frmrelatorioperpar.pas"/>
+        <Caret Line="79" Column="1" TopLine="64"/>
+      </Position13>
+      <Position14>
+        <Filename Value="frmrelatorioperpar.pas"/>
+        <Caret Line="82" Column="1" TopLine="67"/>
+      </Position14>
+      <Position15>
+        <Filename Value="frmrelatorioperpar.pas"/>
+        <Caret Line="83" Column="1" TopLine="68"/>
+      </Position15>
+      <Position16>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="58" Column="1" TopLine="28"/>
+      </Position16>
+      <Position17>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="60" Column="1" TopLine="29"/>
+      </Position17>
+      <Position18>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="79" Column="44" TopLine="66"/>
+      </Position18>
+      <Position19>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="81" Column="6" TopLine="58"/>
+      </Position19>
+      <Position20>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="88" Column="6" TopLine="60"/>
+      </Position20>
+      <Position21>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="85" Column="1" TopLine="54"/>
+      </Position21>
+      <Position22>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="119" Column="23" TopLine="83"/>
+      </Position22>
+      <Position23>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="120" Column="23" TopLine="84"/>
+      </Position23>
+      <Position24>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="121" Column="23" TopLine="85"/>
+      </Position24>
+      <Position25>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="120" Column="1" TopLine="85"/>
+      </Position25>
+      <Position26>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="121" Column="1" TopLine="86"/>
+      </Position26>
+      <Position27>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="120" Column="1" TopLine="85"/>
+      </Position27>
+      <Position28>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="119" Column="1" TopLine="84"/>
+      </Position28>
+      <Position29>
+        <Filename Value="frmrelatoriocresaldo.pas"/>
+        <Caret Line="118" Column="1" TopLine="83"/>
+      </Position29>
+      <Position30>
+        <Filename Value="frmprincipal.pas"/>
+        <Caret Line="288" Column="25" TopLine="440"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>

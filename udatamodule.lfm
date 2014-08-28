@@ -1,0 +1,132 @@
+object dm: Tdm
+  OnCreate = DataModuleCreate
+  OnDestroy = DataModuleDestroy
+  OldCreateOrder = False
+  Height = 200
+  HorizontalOffset = 410
+  VerticalOffset = 263
+  Width = 212
+  object DataSource1: TDataSource
+    DataSet = SQLQueryTable
+    left = 160
+    top = 16
+  end
+  object sqlConnector: TSQLConnector
+    Connected = True
+    LoginPrompt = False
+    DatabaseName = 'C:\Users\ferreira\Google Drive\MagiTech Invest\Aplicativos\fund manager\database.db'
+    KeepConnection = False
+    Transaction = SQLTransaction1
+    LogEvents = []
+    ConnectorType = 'SQLite3'
+    left = 96
+    top = 16
+  end
+  object SQLQueryTable: TSQLQuery
+    FieldDefs = <    
+      item
+        Name = 'tpResultado'
+        DataType = ftInteger
+        Precision = -1
+        Size = 0
+      end    
+      item
+        Name = 'ATIVO'
+        DataType = ftString
+        Precision = -1
+        Size = 255
+      end    
+      item
+        Name = 'ESTRATEGIA'
+        DataType = ftString
+        Precision = -1
+        Size = 255
+      end    
+      item
+        Name = 'INVESTIDO'
+        DataType = ftFloat
+        Precision = -1
+        Size = 0
+      end    
+      item
+        Name = 'PAYOUT'
+        DataType = ftFloat
+        Precision = -1
+        Size = 0
+      end    
+      item
+        Name = 'DATA'
+        DataType = ftString
+        Precision = -1
+        Size = 255
+      end>
+    Database = sqlConnector
+    Transaction = SQLTransaction1
+    SQL.Strings = (
+      'SELECT tpResultado,'
+      '  cast(nmAtivo as varchar) as ATIVO,'
+      '  cast(nmEstrategia as varchar) as ESTRATEGIA,'
+      '  vlInvestimento as INVESTIDO,'
+      '  vlPayout as PAYOUT,'
+      '  cast(dtAtualizacao as varchar) as DATA'
+      'FROM Operacoes'
+    )
+    InsertSQL.Strings = (
+      ''
+    )
+    Params = <>
+    left = 24
+    top = 152
+  end
+  object SQLTransaction1: TSQLTransaction
+    Active = True
+    Database = sqlConnector
+    left = 24
+    top = 16
+  end
+  object SQLQuery: TSQLQuery
+    FieldDefs = <>
+    Database = sqlConnector
+    Transaction = SQLTransaction1
+    Params = <>
+    left = 160
+    top = 152
+  end
+  object SQLQuerySaldo: TSQLQuery
+    FieldDefs = <>
+    Database = sqlConnector
+    Transaction = SQLTransaction1
+    Params = <>
+    DataSource = DataSource1
+    left = 88
+    top = 144
+  end
+  object SqlExterno: TSQLQuery
+    FieldDefs = <    
+      item
+        Name = 'TOTAL'
+        DataType = ftFloat
+        Precision = -1
+        Size = 0
+      end    
+      item
+        Name = 'ATIVO'
+        DataType = ftMemo
+        Precision = -1
+        Size = 0
+      end>
+    Database = sqlConnector
+    Transaction = SQLTransaction1
+    SQL.Strings = (
+      'SELECT sum(vlPayout-vlInvestimento) as TOTAL, nmAtivo as ATIVO from Operacoes group by nmAtivo;'
+    )
+    Params = <>
+    DataSource = DataSource2
+    left = 58
+    top = 80
+  end
+  object DataSource2: TDataSource
+    left = 152
+    top = 88
+  end
+end
